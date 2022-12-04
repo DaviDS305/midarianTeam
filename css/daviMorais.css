@@ -7,6 +7,10 @@
     --blue03: #5B7299;
     --blue04: #6B85B2;
     --alpha: #00000000;
+    --buttonBG: #1a385c;
+    --buttonHover: #2d5e9b;
+    --buttonActive: #142b47;
+    --buttonFont: #aac5f3;
 }
 
 body{
@@ -175,10 +179,10 @@ main{
     width: 335px;
 
     font-size: 18px;
-    background: var(--dark03);
-    color: var(--blue04);
+    background: var(--buttonBG);
+    color: var(--buttonFont);
 
-    border-color: var(--dark03);
+    border-color: var(--buttonBG);
     border-style: solid;
     border-radius: 5px;
     transition: 0.3s;
@@ -186,14 +190,14 @@ main{
 
 .devCard .buttons button:hover{
     cursor: pointer;
-    background: var(--blue01);
-    border-color: var(--blue01);
+    background: var(--buttonHover);
+    border-color: var(--buttonHover);
     transition: 0.3s;
 }
 
 .devCard .buttons button:active{
-    background: var(--dark01);
-    border-color: var(--dark01);
+    background: var(--buttonActive);
+    border-color: var(--buttonActive);
     transition: 0.3s;
 }
 /* Fim do Dev Card*/
