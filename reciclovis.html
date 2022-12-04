@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="css/reciclovis.css">
+        <link rel="stylesheet" href="css/responsivity/reciclovis.css">
+        <title>Reciclóvis Java Edition</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="javascript/showGameContent.js"></script>
+
+        <header>
+            <div class="header-box">
+                <h1><img src="images/midarian-vector.png" alt="icone do site"></h1>
+                <nav>
+                    <ul>
+                        <a href="index.html"><li>Início</li></a>
+                        <a href="games.html"><li class="thisPage">Jogos</li></a>
+                        <a href="currentProject.html"><li>Projeto Atual</li></a>
+                        <a href="currentTeam.html"><li>Equipe Atual</li></a>
+                        <a href="seeAlso.html"><li>Conheça Também</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="bannerBox">
+                <img src="images/general/reciclovis-page-banner.png" alt="reciclovis-banner">
+            </div>
+            <div class="mainBody">
+                <h2>Reciclóvis Java Edition</h2>
+
+                <div class="image">
+                    <video muted autoplay loop preload="auto">
+                        <source src="images/videos/reciclovis-banner.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="textBox">
+                    <div class="text">
+                        <h3>Hora de reciclar!</h3>
+                        <p>No futuro, os níveis de poluição do planeta estavam tão altos que o lixo começou a cair do céu como se fosse chuva.<br><br><p>
+                        <p>Uma grande campanha de reciclagem foi iniciada, e você é Clóvis, um funcionário de limpeza pública. Seu dever é bem simples, executar a todo rigor a política dos 3 R's.<br><br></p>
+                        <p>
+                            Reduzir<br>
+                            Reutilizar<br>
+                            E Reciclóvis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text" id="solo-margin-left">
+                    <p>Recomendado para jogar:<br><br></p>
+                    <p>Desktop ou Notebook com teclado<br></p>
+                    <p>Espaço em disco: 30mb<br></p>
+                    <p>Memória RAM: 1GB<br></p>
+                    <p>Placa Gráfica: 1GB<br><br></p>
+                    <p>Desenvolvido em: JAVA<br></p>
+                    <p>Formato do arquivo: .JAR<br></p>
+                </div>
+                <div class="text" id="categories">
+                    <p>Categorias:<br><br></p>
+                    <p>Infinito<br></p>
+                    <p>Drop<br></p>
+                    <p>Pontuação máxima<br></p>
+                    <p>Um jogador<br></p>
+                    <p>Puzzle<br></p>
+                    <p>Arcade<br></p>
+                    <p>Educativo</p>
+                </div>
+                <a href="downloads/reciclovis-je-release-0.1.3.jar" download>
+                    <div class="text" id="downloadButton">
+                        <p>Download</p>
+                    </div>
+                </a>
+                <div class="showMore">
+                    <span id="hiddenContent">
+                        <div class="hidden-left" id="upGradient">
+                            <div class="hidden-text">
+                                <h4>Reciclóvis Java Edition</h4>
+                                <p>Reciclóvis é um projeto desenvolvido pela Midarian Team como jogo do semestre (primeiro) para a Faculdade de Tecnologia de São Caetano do Sul (FATEC SCS).<br><br></p>
+                                <p>Equipe de desenvolvimento à direita.<br><br></p>
+                                <p>A maior inspiração para o desenvolvimento do projeto foi um dos minigames do mobile Pou, Food Drop; que consiste em mover seu avatar Pou pela tela com o intuito de fazê-lo comer tudo que cair do céu e for comestível.<br><br></p>
+                                <p>Desenvolvido inicialmente com PyGame (Python) e estilo de arte Pixel Art, o protótipo do que viria a ser o então atual Reciclóvis JE (Java Edition) estava pronto e funcional, com uma mecânica baseada no Food Drop, porêm com um acréssimo de dificuldade.<br><br></p>
+                                <p>Desde o começo, a ideia por trás do Reciclóvis era ensinar para crianças de até 12 anos, as cores das lixeiras do sistema brasileiro de reciclagem, e quais tipos de lixo cada uma delas aceitam. Dessa forma, foi adicionada uma mecânica de jogo onde ao invés do jogador apenas se colocar no caminho para impedir que o lixo toque o chão, o lixo em questão caso colidisse com o personagem ficaria em estado de "hold", ou aguardo.<br><br></p>
+                                <p>Dessa forma, somente seria possível "segurar" outro lixo, caso o que estiver na mão do jogador seja direcionado a uma das lixeiras utilizando um botão de ação, forçando assim o jogador a memorizar quais tipos de lixo vão em cada uma das lixeiras.<br><br></p>
+                                <p>A evolução desse projeto então se tornou o atual Reciclóvis Java Edition. O desafio estava em conseguir remover os pontos negativos que estavam presentes na versão anterior, que foram: Velocidade de queda do lixo baseado na pontuação, não haver muitos sistemas de referência para jogadores iniciantes e não haver escolha de dificuldade.<br><br></p>
+                                <p>Para a nova versão, foram adicionadas 3 novas dificuldades (fácil/médio/difícil), criado sistemas auxiliares para que o jogador consiga ter formas de identificar para qual lixeira o lixo deve ser enviado (apenas no modo fácil), gráficos, trilhas sonoras e sons totalmente refeitos, e mudança de motor gráfico, de PyGame para LibGDX (JAVA)<br><br></p>
+                                <p>Claro, isso faz com que o jogador precise ter uma JVM (Java Virtual Machine) em seu computador, entretanto, os benefícios para o jogo foram maiores do que o custo. Todos os testes realizados durante a versão alpha até sua versão de lançamento foram satisfatórios, e permitiram até planejamento de novas mecânicas e modos de jogo que poderiam ser adicionados ao longo do tempo. Mesmo assim, ainda se trata de um jogo de nixo (Escolar), e por conta disso o projeto foi encerrado em sua versão Java.<br><br></p>
+                                <p>Apesar disso, trabalhar com o Reciclóvis nos permitiu aprender bastante coisa, conhecimentos que serão utilizados em nossos futuros projetos; devido a isso, nós da equipe estamos bastante satisfeitos com o resultado final. Esperamos que quem jogue Reciclóvis consiga ter a experiência que foi planejada, e principalmente, que consiga aprender algo a partir do nosso jogo.</p>
+                            </div>
+                        </div>
+                        <div class="hidden-right" id="upGradient">
+                            <div class="hidden-text">
+                                <h4>Desenvolvedores</h4>
+                                <a href="https://www.linkedin.com/in/bruno-henrique-azevedo-borges-633843115/">
+                                    <div class="devCard">
+                                        <img src="images/devs/bb.jpeg" alt="dev-01">
+                                        <h5>Bruno Borges</h5>
+                                    </div>
+                                </a>
+                                <a href="daviMorais.html">
+                                    <div class="devCard">
+                                        <img src="images/devs/dm.jpeg" alt="dev-02">
+                                        <h5>Davi Morais</h5>
+                                    </div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ol%C3%ADvia-silva-amann-1595431a8/">
+                                    <div class="devCard">
+                                        <img src="images/devs/oa.jpeg" alt="dev-03">
+                                        <h5>Olivia Amann</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </span>
+                    <button onclick="showMore()" id="showButton">Me fale mais sobre o Reciclóvis</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Midárian | midarian.comercial@gmail.com</p>
+        </footer>
+
+    </body>
+</html>

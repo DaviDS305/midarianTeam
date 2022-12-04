@@ -1,0 +1,297 @@
+:root{
+    --dark01: #0F1319;
+    --dark02: #1E2633;
+    --dark03: #2D394C;
+    --blue01: #3D4C66;
+    --blue02: #4C5F7F;
+    --blue03: #5B7299;
+    --blue04: #6B85B2;
+    --alpha: #00000000;
+}
+
+body{
+    width: 1350px;
+    max-width: 1350px;
+    overflow-x: hidden;
+    margin: 0 auto;
+
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(75deg, black 1%, var(--dark01) 99%);
+}
+
+/* ----- Configurações de cabeçalho -----*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: var(--dark01);
+    width: 250px;
+    height: 100vh;
+
+    border-right: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+
+    border-style: solid;
+    border-color: var(--blue02);
+}
+
+.header-box{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-box img{
+    max-width: 150px;
+}
+
+.header-box h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    color: white;
+}
+
+.thisPage{
+    background: linear-gradient(75deg, var(--dark02) 1%, var(--blue02) 99%);
+    color: white;
+}
+/* Fim das configurações de cabeçalho*/
+
+/* Navegação */
+
+nav ul{
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+nav li:hover{
+    transition: 0.5s;
+    background: linear-gradient(75deg, var(--dark01) 1%, var(--blue01) 99%);
+    color: var(--blue04);
+}
+
+/* Fim da navegação*/
+
+/* Main */
+
+a{ /* Links */
+    text-decoration: none;
+    color: var(--blue02);
+}
+
+main{
+    background: linear-gradient(75deg, black 1%, var(--dark02) 99%);
+    width: 1088px;
+    margin-left: 252px;
+}
+
+.bannerBox{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.bannerBox video{
+    max-width: 1088px;
+    overflow-x: hidden;
+}
+
+.mainBody{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: var(--blue04);
+}
+
+.mainBody h2{
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+
+    border-style: solid;
+    border-color: var(--blue02);
+
+    padding: 30px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+    text-align: center;
+
+    color: var(--blue04);
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* Dev Card */
+.devCard{
+    display: inline-block;
+    background: var(--dark02);
+    border-radius: 5px;
+    width: 945px;
+    text-align: left;
+}
+
+.devCard img{
+    max-width: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.devCard .info {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 330px;
+}
+
+.devCard .info p{
+    margin-top: 18px;
+}
+
+.devCard .buttons{
+    display: inline-block;
+}
+
+.devCard .buttons button{
+    display: block;
+    padding: 24px;
+    margin: 3px;
+    width: 335px;
+
+    font-size: 18px;
+    background: var(--dark03);
+    color: var(--blue04);
+
+    border-color: var(--dark03);
+    border-style: solid;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.devCard .buttons button:hover{
+    cursor: pointer;
+    background: var(--blue01);
+    border-color: var(--blue01);
+    transition: 0.3s;
+}
+
+.devCard .buttons button:active{
+    background: var(--dark01);
+    border-color: var(--dark01);
+    transition: 0.3s;
+}
+
+/* Fim do DevCard */
+
+.linksButton{
+    display: block;
+}
+
+.linksButton img{
+    max-width: 42px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.linksButton img:hover{
+    max-width: 46px;
+    transition: 0.2s;
+}
+
+/* Início do TextBox*/
+
+.textBox{
+    background: var(--dark02);
+    display: inline-block;
+
+    width: 945px;
+    padding: 10px 0;
+    padding-bottom: 30px;
+
+    border-radius: 5px;
+}
+
+.textBox h3{
+    font-size: 20px;
+    margin: 20px 30px;
+    text-transform: uppercase;
+}
+
+.textParagraph{
+    display: inline-block;
+    background: var(--dark03);
+
+    margin: 0 30px;
+    margin-top: 10px;
+
+    padding: 10px 0;
+    padding-bottom: 20px;
+
+    border-radius: 5px;
+    width: 885px;
+}
+
+.textParagraph .textParagraph{
+    margin: 0 30px;
+    margin-top: -15px;
+    width: 825px;
+}
+
+.textParagraph p{
+    font-size: 15px;
+    margin: 0 30px;
+    width: 845px;
+}
+
+.textParagraph .textParagraph p{
+    width: 770px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#formation, #projects, #habilities{
+    display: inline-block;
+    text-align: left;
+}
+
+#projects, #habilities{
+    display: none;
+    text-align: left;
+}
+
+/* Fim do Dev Card*/
+
+#hiddenButtons{
+    display: none;
+}
+/* Fim do Main */
+
+footer{
+    background: var(--dark01);
+    width: 1088px;
+    margin-top: 5px;
+    margin-left: 252px;
+    color: var(--blue02);
+}
+
+footer p{
+    padding: 40px;
+    text-align: center;
+}

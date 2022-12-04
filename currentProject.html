@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="css/currentProject.css">
+        <link rel="stylesheet" href="css/responsivity/currentProject.css">
+        <title>Projeto Atual</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="javascript/showGameContent.js"></script>
+
+        <header>
+            <div class="header-box">
+                <h1><img src="images/midarian-vector.png" alt="icone do site"></h1>
+                <nav>
+                    <ul>
+                        <a href="index.html"><li>Início</li></a>
+                        <a href="games.html"><li>Jogos</li></a>
+                        <a href="currentProject.html"><li class="thisPage">Projeto Atual</li></a>
+                        <a href="currentTeam.html"><li>Equipe Atual</li></a>
+                        <a href="seeAlso.html"><li>Conheça Também</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="bannerBox">
+                <video muted autoplay loop preload="auto">
+                    <source src="images/videos/overhaul-banner.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="mainBody">
+                <h2>No que estamos trabalhando?</h2>
+                <div class="imageBox">
+                    <img src="images/general/overhaul-base.png" alt="overhaul-generic-image">
+                    <div class="textBox" id="downGradient">
+                        <h3>Revisão seria a resposta.</h3>
+                        <p>OVERHAUL é o nome genérico que demos ao nosso projeto mais ambicioso. Um jogo 2D de estilo semelhante a um metroidvânia, inspirado em 3 jogos clássicos que admiramos.</p>
+                        <p>Ori and the Will of the Wisps, Hollow Knight e Dark Souls</p>
+                        <p>O que os três jogos tem em comum? Quando olhamos de forma separada, é complicado encontrar semelhanças entre os três. Porém ao observar mais cuidadosamente, poderemos perceber Hollow Knight é o ponto em comum.</p>
+                        <p>Enquanto Ori 2 é apenas um metroidvânia com desafios equilibrados, tendo um foco maior em sua arte visual e trilha sonora, afim de proporcionar uma jornada emocional e marcante, Dark Souls é um RPG de ação sombrio, baseado em desafios beirando o desbalanceado e focado quase que inteiramente em decorar tempo e padrões (e isso é muito legal! Ok, há quem não goste).</p>
+                        <p>Nesse meio termo, temos Hollow Knight, que proporciona um universo de tematica sombria e atmosfera escura, o que o aproxima de Dark Souls, mas ao mesmo tempo mantém a gameplay de um metroidvânia clássico, com mecânicas bem semelhantes a Ori.</p>
+                    </div>
+                </div>
+                <div class="soloTextBox" id="upGradient">
+                    <h3>E onde nosso projeto se encaixa?</h3>
+                    <p>Uma vez que as mecânicas e estilo de I.A que temos em mente são um tanto quanto "incomuns" pra essa categoria de jogo, nosso projeto se encaixa bem entre Hollow Knight e Dark Souls, saindo do centro de equilíbrio desses 3 jogos e pendendo mais pra o lado criativo/reativo da gameplay; mas calma, explicaremos onde queremos chegar.</p>
+                </div>
+                <img src="images/general/overhaul-expects.png" alt="overhaul-expects">
+                <div class="soloTextBox" id="downGradient">
+                    <h3>Uma coisa que percebemos, é que...</h3>
+                    <p>No geral, jogos no estilo metroidvânia costumam se prender bastante a memorização de padrões quando o assunto é batalhas contra chefes, e isso por si só já é bem legal! Porém, não é exatamente o que buscamos. Por esse motivo, resolvemos nos aproximar de Dark Souls, onde a coisa já é bem diferente.</p>
+                    <p>Ao comparar os dois estilos de combate, se observarmos bem, ambos (Soulslike/metroidvânia) possuem sua base em perceber os padrões de ataque do inimigo, e se aproveitar dos intervalos entre eles para atacar (ou se defender). Mas algo bem específico diferencia os dois estilos de combate, e esse diferencial é o Tempo.</p>
+                    <p>Em um metroidvânia, é comum enxergar em inimigos principais (chefes) um padrão de tempo "compassado", onde o inimigo executa uma sequência de ações, e logo em seguida começa a repeti-las. Acredito que isso é frequentemente utilizado pois na teoria, fica mais fácil criar um script de movimento que é executado em loop, do que criar muitos outros critérios de execução. E é nesse ponto que os dois estilos se diferenciam.</p>
+                    <p>Usando soulslike como referência (Sekiro, Dark Souls, Elden Ring). Apesar dos inimigos claramente possuirem padrões de ataques, o padrão não é compassado. Significa que não existe uma ordem ou tempo correto para o inimigo em questão utilizar um de seus ataques ou sequências especiais, tudo dependeria de inúmeras variáveis, como: Distância entre o inimigo e o jogador, ação que o jogador está executando, vida do inimigo e vida do jogador, etc...</p>
+                </div>
+                <div class="imageBox">
+                    <div class="textBox" id="upGradient">
+                        <h3>Nossa primeira versão de teste...</h3>
+                        <p>Foi criada utilizando desse conceito de combate, e com isso pudemos tirar algumas conclusões. A primeira delas, é que pra quem não está acostumado a ver esse tipo de mecânica de tempo em jogos desse estilo foi um pouco confuso e difícil de se adaptar; mas isso só nos deixa mais confiante de que é esse o caminho correto. Utilizar desse estilo de tempo cria uma imprevisibilidade no combate, o que faz o jogador ter que melhorar em seus próprios reflexos, além dos padrões de ataques.</p>
+                        <p>A segunda conclusão, é que utilizar de um estilo de combate não compassado nos permite criar mais padrões de ataques para os nossos inimigos, o que gera um combate mais diversificado, dinâmico, ou até mesmo "menos parado", e isso é bom. Claro, isso também faz com que nós precisemos ficar de olho na dificuldade que está sendo aplicada, para que o jogador não se sinta frustrado ao jogar.</p>
+                        <p>Por fim, isso dá mais liberdade ao jogador, uma vez que não existe um padrão correto de combater o inimigo, ele pode se sentir livre para utilizar dos artifícios que achar melhor para enfrentar um desafio, e isso é ótimo do nosso ponto de vista, pois significa que o mesmo jogo poderá ser jogado diversas vezes sem ser exageradamente repetitivo.</p>
+                    </div>
+                    <img src="images/general/overhaul-trinity.png" alt="overhaul-generic-image-2">
+                </div>
+                <div class="soloTextBox" id="downGradient">
+                    <h3>No geral, estamos bem confiantes!</h3>
+                    <p>Nós já temos boa parte do jogo planejada, incluindo um mapa provisório, história, finais alternativos, e algumas mecânicas bem "ousadas". Nosso maior problema atualmente é a parte artística.</p>
+                    <p>Atualmente, devido ha falta de tempo e pessoas, estamos utilizando imagens provisórias para fazer o jogo avançar, pois ainda não existem imagens suficientes para criar o jogo em sua versão final; e o mesmo acontece para os efeitos sonoros e música ambiente.</p>
+                    <p>O plano inicialmente era conseguir lançar essa versão planejada do jogo até o final do ano que vem (2023), porém, se continuarmos nesse ritmo e não conseguirmos outra forma de acelerar a parte artística e sonora, imaginando que nenhum problema aconteça na parte programacional, terminaremos por volta da metade de 2024 (o que é bastante tempo, mas vai dar certo).</p>
+                    <p>Você pode baixar nossa versão de teste para jogar, ela contém apenas a parte mecânica base funcionando, sem sistema de recompensas ou XP. Até o jogo ser finalizado, esperamos ter bons resultados.</p>
+                </div>
+                <a href="downloads/overhaul-project-v1.2.1b.rar" download>
+                    <div class="downloadButton">
+                        <p>Baixe a versão de teste</p>
+                    </div>
+                </a>
+                <a href="" id="catarse">
+                    <div class="downloadButton">
+                        <p>Apoie nosso projeto</p>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <p>Midárian | midarian.comercial@gmail.com</p>
+        </footer>
+
+    </body>
+</html>

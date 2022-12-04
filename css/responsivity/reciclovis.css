@@ -1,0 +1,398 @@
+@media screen and (max-width: 1240px){
+
+    body{
+        width: 1024px;
+        max-width: 1024px;
+    }
+    /* ----- Configurações de cabeçalho -----*/
+    header{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+    
+        border-bottom: 1px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    
+    .header-box{
+        text-align: center;
+        margin: 0 auto;
+        width: 1024px;
+    }
+    
+    .header-box img{
+        max-width: 50px;
+    }
+    
+    .header-box h1{
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+    
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 50px;
+    }
+    /* Fim das configurações de cabeçalho*/
+    
+    /* Navegação */
+    nav{
+        display: inline-block;
+    }
+    nav ul{
+        padding: 0;
+        margin-top: 7px;
+    }
+    
+    nav li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 0;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    nav li:hover{
+        background: linear-gradient(0deg, var(--dark01) 1%, var(--blue01) 99%);
+    }
+    
+    .thisPage{
+        background: linear-gradient(0deg, var(--dark02) 1%, var(--blue02) 99%);
+        color: white;
+    }
+    /* Fim da navegação*/
+    
+    main{
+        width: 1024px;
+        margin-left: 0px;
+        margin-top: 65px;
+    }
+
+    .bannerBox img{
+        height: 355px;
+    }
+
+    .mainBody .image {
+        margin-left: 30px;
+    }
+    #solo-margin-left {
+        margin-left: 30px;
+    }
+
+
+    /* Fim do Main */
+    
+    footer{
+        width: 1024px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    body{
+        width: 800px;
+        max-width: 800px;
+    }
+
+    .header-box{
+        text-align: center;
+        margin: 0 auto;
+        width: 800px;
+    }
+
+    .header-box h1 {
+        margin-right: 10px;
+    }
+
+    nav a{
+        font-size: 15px;
+    }
+
+    main{
+        width: 800px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .bannerBox img{
+        height: 278px;
+    }
+
+    .mainBody .image {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .mainBody .textBox {
+        width: 230px;
+    }
+    .mainBody .textBox .text {
+        padding: 17px 20px;
+    }
+    .mainBody .text h3 {
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    .mainBody .text p {
+        font-size: 14px;
+    }
+    #solo-margin-left {
+        margin-left: 10px;
+        width: 285px;
+    }
+    #categories {
+        margin-left: 10px;
+    }
+    #downloadButton {
+        margin-left: 10px;
+        width: 188px;
+        height: 126px;
+    }
+
+    .hidden-left {
+        width: 530px;
+        margin-left: 10px;
+    }
+    .hidden-left .hidden-text p {
+        font-size: 14px;
+    }
+    .hidden-left .hidden-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .hidden-right {
+        width: 241px;
+    }
+    .devCard img {
+        max-width: 175px;
+    }
+    /* Fim do Main */
+    
+    footer{
+        width: 800px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body{
+        width: 720px;
+        max-width: 720px;
+    }
+
+    .header-box{
+        text-align: center;
+        margin: 0 auto;
+        width: 720px;
+    }
+
+    .header-box h1 {
+        display: none;
+    }
+
+    nav li {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    main{
+        width: 720px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .bannerBox img{
+        height: 250px;
+    }
+
+    .mainBody video {
+        max-width: 420px;
+    }
+    .mainBody .textBox {
+        width: 265px;
+    }
+    .mainBody .textBox .text {
+        padding: 26px 10px;
+    }
+    .mainBody .text p {
+        font-size: 12px;
+    }
+
+    #solo-margin-left {
+        width: 208px;
+    }
+    #downloadButton {
+        height: 109px;
+    }
+    #downloadButton p {
+        padding-top: 40px;
+    }
+
+    .hidden-left {
+        width: 489px;
+    }
+
+    .hidden-right {
+        width: 205px;
+        height: 865px;
+    }
+    .devCard img {
+        max-width: 110px;
+    }
+    .devCard h5 {
+        font-size: 20px;
+    }
+
+    footer{
+        width: 720px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 720px){
+    body{
+        width: 640px;
+        max-width: 640px;
+    }
+
+    .header-box{
+        width: 640px;
+    }
+
+    nav li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    main{
+        width: 640px;
+    }
+    .bannerBox{
+        display: none;
+    }
+
+    .mainBody .image {
+        display: block;
+    }
+    .mainBody video {
+        max-width: 620px;
+    }
+    .mainBody .text {
+        padding: 33px 15px;
+    }
+    .mainBody .textBox {
+        width: 367px;
+        margin-left: 10px;
+    }
+    .mainBody .textBox .text {
+        padding: 5px 10px;
+        padding-bottom: 10px;
+    }
+    #categories {
+        width: 337px;
+        margin-top: 10px;
+    }
+    #downloadButton {
+        height: 108px;
+        margin-top: 10px;
+        width: 208px;
+    }
+
+    .hidden-left {
+        width: 620px;
+        padding-bottom: 10px;
+    }
+
+    .hidden-right {
+        width: 620px;
+        height: 260px;
+        display: block;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .devCard {
+        margin: 10px;
+        width: 165px;
+        display: inline-block;
+    }
+
+    footer{
+        width: 640px;
+    }
+}
+@media screen and (max-width: 640px){
+    body{
+        width: 320px;
+        max-width: 320px;
+    }
+
+    .header-box{
+        width: 320px;
+    }
+
+    nav li {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 10px;
+    }
+
+    main{
+        width: 320px;
+    }
+    .bannerBox{
+        display: none;
+    }
+    .mainBody h2 {
+        font-size: 20px;
+    }
+    .mainBody video {
+        max-width: 300px;
+    }
+    .mainBody .textBox {
+        width: 300px;
+        display: block;
+    }
+    .mainBody .textBox .text {
+        padding: 20px 10px;
+        padding-bottom: 20px;
+    }
+    #solo-margin-left {
+        width: 270px;
+        display: block;
+        margin-top: 10px;
+    }
+    #categories {
+        width: 270px;
+        display: block;
+    }
+
+    #downloadButton {
+        margin-top: 10px;
+        width: 270px;
+    }
+    .hidden-left {
+        width: 300px;
+    }
+    .hidden-right {
+        width: 300px;
+        height: 600px;
+    }
+    .devCard {
+        width: 260px;
+        display: block;
+    }
+
+    footer{
+        width: 320px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}
