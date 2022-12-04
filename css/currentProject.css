@@ -7,6 +7,10 @@
     --blue03: #5B7299;
     --blue04: #6B85B2;
     --alpha: #00000000;
+    --buttonBG: #1a385c;
+    --buttonHover: #2d5e9b;
+    --buttonActive: #142b47;
+    --buttonFont: #aac5f3;
 }
 
 #upGradient{
@@ -216,8 +220,8 @@ main{
     padding: 20px;
     margin-top: 10px;
 
-    background: var(--dark03);
-    color: var(--blue04);
+    background: var(--buttonBG);
+    color: var(--buttonFont);
 
     font-size: 15px;
     width: 200px;
@@ -227,11 +231,11 @@ main{
 }
 
 .downloadButton:hover{
-    background: var(--blue02);
+    background: var(--buttonHover);
     transition: 0.2s;
 }
 .downloadButton:active{
-    background: var(--dark01);
+    background: var(--buttonActive);
 }
 
 #catarse{
